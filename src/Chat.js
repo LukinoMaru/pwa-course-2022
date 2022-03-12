@@ -20,6 +20,13 @@ function Chat() {
   ]);
 
   const onMsg = (msg) => {
+      const self = authState.user;
+
+       // x = 1 ----> 1 ใส่ X
+       // x = 2
+
+       // x == 1 ----> x = 1 หรือไม่??
+       // x === 1 ----> x = 1 และตรงกันมั้ย??
     
     const mappedValue = {
       ...msg,
